@@ -129,33 +129,3 @@ echo "Soy la partición 1 GPT y tengo un tamaño de 20GiB" | sudo tee /media/sdc
 echo "Soy la partición 2 GPT y tengo un tamaño de 15GiB" | sudo tee /media/sdc2/info.txt
 ```
 
----
-
-## 3. Subida a GitHub
-
-### **3.1. Subir desde la página web**
-1. Ir al repositorio en GitHub.
-2. Hacer clic en **"Add file" → "Upload files"**.
-3. Seleccionar `particionado.md` y hacer clic en **"Commit changes"**.
-
-### **3.2. Subir usando Git en Windows**
-```bash
-git clone https://github.com/TuUsuario/particionado-disco.git
-cd particionado-disco
-mv /ruta/al/archivo/particionado.md .
-git add particionado.md
-git commit -m "Subida de la práctica de particionado"
-git push origin main
-```
-
----
-
-## 4. Entrega de la Práctica
-
-- Asegurarse de que el archivo `particionado.md` esté en GitHub.
-- Comentar la URL del repositorio en la plataforma de entrega.
-
----
-
-¡Práctica completada! 🚀
-
